@@ -1,3 +1,6 @@
+https://perslay.github.io/team-project - link do naszego grupowego repo, może jakieś rozwiązania sie przydadzą
+
+
 # parcel-project-template
 
 ## Zalezności
