@@ -7,10 +7,17 @@ flex-shrink: 0;
 position: relative;
 }
 
-.header-div-logo {
-}
-
-
 .header-logo {
 fill: transparent;
+position: fixed;
+top: 40px;
+left: 31px;
+}
+
+.header-menu {
+position: fixed;
+top: 48px;
+right: 31px;
+background-color: transparent;
+border: none;
 }
