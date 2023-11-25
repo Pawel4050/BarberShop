@@ -4,3 +4,8 @@
 height: 580px;
 flex-shrink: 0;
 }
+
+.header-logo {
+    top: 41px;
+    left: 30px;
+}
