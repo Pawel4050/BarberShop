@@ -1,0 +1,6 @@
+.header {
+    background-image: url(/src/images/header/slider-img-3_mob@1x.jpg);
+    width: 480px;
+height: 580px;
+flex-shrink: 0;
+}
