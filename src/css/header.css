@@ -1,11 +1,16 @@
 .header {
-    background-image: url(/src/images/header/slider-img-3_mob@1x.jpg);
-    width: 480px;
+background-image: url(/src/images/header/slider-img-3_mob@1x.jpg);
+background-size: cover;
+height: auto;
 height: 580px;
 flex-shrink: 0;
+position: relative;
 }
 
+.header-div-logo {
+}
+
+
 .header-logo {
-    top: 41px;
-    left: 30px;
+fill: transparent;
 }
