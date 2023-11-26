@@ -7,6 +7,15 @@ flex-shrink: 0;
 position: relative;
 }
 
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.header {
+background-image: linear-gradient(rgba(25, 28, 38, 0.20), rgba(25, 28, 38, 0.20)), url(/src/images/header/slider-img-3_mob@2x.jpg);
+}
+}
+
 .header-logo {
 fill: transparent;
 position: fixed;
