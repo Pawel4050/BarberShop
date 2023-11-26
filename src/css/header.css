@@ -1,10 +1,11 @@
 .header {
-background-image: url(/src/images/header/slider-img-3_mob@1x.jpg);
+background-image: linear-gradient(rgba(25, 28, 38, 0.20), rgba(25, 28, 38, 0.20)), url(/src/images/header/slider-img-3_mob@1x.jpg);
 background-size: cover;
-height: auto;
 height: 580px;
+width: 100%;
 flex-shrink: 0;
 position: relative;
+background: rgba(25, 28, 38, 0.20);
 }
 
 .header-logo {
