@@ -28,7 +28,7 @@ position: fixed;
 flex-direction: column;
 top: 208px;
 left: 31px;
-width: 336px;
+max-width: 336px;
 gap: 20px;
 }
 
