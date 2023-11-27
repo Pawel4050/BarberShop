@@ -72,6 +72,5 @@
 .about-button:focus {
   background-color: var(--color-border);
   color: var(--color-white);
-
   outline: none;
 }
