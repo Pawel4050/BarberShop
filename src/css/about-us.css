@@ -1,0 +1,77 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 84px;
+  margin-bottom: 84px;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-lineHead {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.about-line {
+  width: 60px;
+  height: 1px;
+  background-color: var(--color-textHead);
+  flex-shrink: 0;
+}
+.about-head {
+  text-transform: uppercase;
+}
+
+.about-title {
+  color: var(--color-textHead);
+  font-family: Raleway;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.4px;
+}
+
+.about-text {
+  color: #555;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.32px;
+}
+
+.about-textTwo {
+  color: var(--color-text);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.32px;
+}
+
+.about-button {
+  width: 160px;
+  height: 40px;
+  color: var(--color-textHead);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+}
+.about-button:hover,
+.about-button:focus {
+  background-color: var(--color-border);
+  color: var(--color-white);
+
+  outline: none;
+}
