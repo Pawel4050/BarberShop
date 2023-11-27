@@ -16,3 +16,36 @@ transition: 250ms ease-in-out;
 .menu-container.is-open {
 transform: translateX(0);
 }
+
+.menu-button-close {
+    border: none;
+    background-color: transparent;
+    position: fixed;
+    top: 48px;
+    right: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 118px;
+    left: 40px;
+}
+
+.mobile-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.mobile-li {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
