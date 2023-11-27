@@ -18,25 +18,16 @@ background-image: linear-gradient(rgba(25, 28, 38, 0.20), rgba(25, 28, 38, 0.20)
 
 .header-logo {
 fill: transparent;
-position: fixed;
-top: 40px;
-left: 31px;
 }
 
 .header-menu {
-position: fixed;
-top: 48px;
-right: 31px;
 background-color: transparent;
 border: none;
 }
 
 .header-div {
 display: flex;
-position: fixed;
 flex-direction: column;
-top: 208px;
-left: 31px;
 max-width: 336px;
 gap: 20px;
 }
